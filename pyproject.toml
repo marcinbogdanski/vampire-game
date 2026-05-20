@@ -1,0 +1,14 @@
+[project]
+name = "vampire-game"
+version = "0.1.0"
+description = "Evil vampire wakes from decades of sleep"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+
+]
+
+# Don't allow non-wheel installs (no compile from source)
+[tool.uv.pip]
+# Alias for --only-binary :all:
+no-build = true
