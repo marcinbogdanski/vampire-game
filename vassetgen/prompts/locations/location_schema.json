@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Location",
+  "type": "object",
+  "required": ["climate", "terrain", "vegetation", "architecture", "location", "condition"],
+  "additionalProperties": false,
+  "properties": {
+    "climate": {
+      "type": "string",
+      "enum": ["temperate"]
+    },
+    "terrain": {
+      "type": "string",
+      "enum": ["forest"]
+    },
+    "vegetation": {
+      "type": "string",
+      "enum": ["deciduous"]
+    },
+    "architecture": {
+      "type": "string",
+      "enum": ["medieval_european"]
+    },
+    "location": {
+      "type": "string",
+      "enum": ["wilderness", "road", "crossroad", "village_entrance", "village_square", "castle"]
+    },
+    "condition": {
+      "type": "string",
+      "enum": ["lived_in", "noble", "ruined", "n/a"]
+    }
+  }
+}

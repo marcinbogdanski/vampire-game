@@ -1,0 +1,8 @@
+{
+  "climate": "temperate",
+  "terrain": "forest",
+  "vegetation": "deciduous",
+  "architecture": "medieval_european",
+  "location": "village_square",
+  "condition": "lived_in"
+}
